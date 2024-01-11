@@ -1,0 +1,22 @@
+{
+  "name": "td-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apn": "^2.2.0",
+    "chalk": "^4.1.2",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.9.7",
+    "passkit-generator": "^3.1.11",
+    "uuid": "^9.0.1"
+  }
+}

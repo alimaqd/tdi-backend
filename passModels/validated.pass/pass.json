@@ -1,0 +1,71 @@
+{
+  "formatVersion": 1,
+  "passTypeIdentifier": "pass.ca.deloitte.tdiclaims",
+  "serialNumber": "43d4f07d-99d8-4ad7-ad7c-d8b947a9b3f4",
+  "webServiceURL": "https://80d7-66-23-99-118.ngrok-free.app/",
+  "authenticationToken": "vxwxd7J8AlNNFPS8k0a0FfUFtq0ewzFdc",
+  "teamIdentifier": "539KYJTU7Y",
+  "associatedStoreIdentifiers": [
+    942363671
+  ],
+  "organizationName": "TD Insurance",
+  "description": "your TD Insurance Claim",
+  "foregroundColor": "rgb(60, 135, 37)",
+  "eventTicket": {
+    "headerFields": [
+      {
+        "key": "header_text",
+        "label": "Claims",
+        "value": ""
+      }
+    ],
+    "primaryFields": [
+      {
+        "key": "member",
+        "value": ""
+      }
+    ],
+    "secondaryFields": [
+      {
+        "key": "estimated_completion",
+        "label": "ESTIMATED COMPLETION",
+        "value": "2023-12-01T04:59:59.999+00:00",
+        "dateStyle": "PKDateStyleLong"
+      },
+      {
+        "key": "last_updated",
+        "label": "LAST UPDATED",
+        "value": "2023-10-31T14:00:37.432+00:00",
+        "textAlignment": "PKTextAlignmentRight",
+        "changeMessage": "Your claim CL001921 was updated on %@. For more information check out the TD Insurance App.",
+        "dateStyle": "PKDateStyleLong"
+      }
+    ],
+    "auxiliaryFields": [
+      {
+        "key": "claim_number",
+        "label": "CLAIM NUMBER",
+        "value": "CL001921"
+      },
+      {
+        "key": "claim_handler",
+        "label": "YOUR CLAIM HANDLER",
+        "value": "Sophie Brown",
+        "textAlignment": "PKTextAlignmentRight"
+      }
+    ],
+    "backFields": [
+      {
+        "key": "your_vehicle",
+        "label": "Your Vehicle",
+        "value": "Mercedes"
+      },
+      {
+        "key": "license_plate",
+        "label": "License Plate",
+        "value": "BEEJ 681"
+      }
+    ]
+  },
+  "type": "generic"
+}
