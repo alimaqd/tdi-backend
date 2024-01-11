@@ -5,12 +5,10 @@
   "webServiceURL": "https://80d7-66-23-99-118.ngrok-free.app/",
   "authenticationToken": "vxwxd7J8AlNNFPS8k0a0FfUFtq0ewzFdc",
   "teamIdentifier": "539KYJTU7Y",
-  "associatedStoreIdentifiers": [
-    942363671
-  ],
-  "organizationName": "TD Insurance",
-  "description": "your TD Insurance Claim",
-  "foregroundColor": "rgb(60, 135, 37)",
+  "associatedStoreIdentifiers": [1435348849],
+  "organizationName": "Deloitte",
+  "description": "Your Insurance Claim",
+  "foregroundColor": "rgb(37, 137, 13)",
   "eventTicket": {
     "headerFields": [
       {
