@@ -49,8 +49,8 @@ const statusToPassModelMap = {
 
 const passModelPath = './passModels/';
 const outputPath = './output/output.pkpass';
-const certificatePath = './certificates/tdi-claims-cert.pem';
-const keyPath = './certificates/td-claim-cert-key.pem';
+const certificatePath = './certificates/td-claim-cert-key.pem';
+const keyPath = './certificates/tdi-claims-pk.pem';
 const wwdrPath = './certificates/AppleWWDRCAG3.pem';
 const keyPassphrase = 'Testing@123';
 
