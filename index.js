@@ -36,7 +36,7 @@ app.use(morgan(format));
 const fs = require('fs');
 const { PKPass } = require('passkit-generator');
 
-let serverURL = 'https://80d7-66-23-99-118.ngrok-free.app/';
+let serverURL = 'https://8070-2001-569-729b-ee00-4937-d2ef-1877-a148.ngrok-free.app/';
 
 const statusToPassModelMap = {
     assessed: 'assessed.pass',
@@ -50,7 +50,7 @@ const statusToPassModelMap = {
 const passModelPath = './passModels/';
 const outputPath = './output/output.pkpass';
 const certificatePath = './certificates/tdi-claims-cert.pem';
-const keyPath = './certificates/tdi-claims-pk.pem';
+const keyPath = './certificates/td-claim-cert-key.pem';
 const wwdrPath = './certificates/AppleWWDRCAG3.pem';
 const keyPassphrase = 'Testing@123';
 
@@ -165,7 +165,7 @@ async function updatePassModel(model_path) {
     passData.serialNumber = SERIAL_NUMBER;
     LAST_UPDATED = Math.floor(Date.now() / 1000).toString();
     passData.webServiceURL = serverURL;
-    passData.associatedStoreIdentifiers = [942363671];
+    passData.associatedStoreIdentifiers = [1435348849];
     passData.type = 'generic';
     //passData.logoText = 'TD';
 
